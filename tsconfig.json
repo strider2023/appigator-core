@@ -20,10 +20,10 @@
     ],
     "paths": {
       "appigator-core": [
-        "dist/appigator-core"
+        "library/appigator-core"
       ],
       "appigator-core/*": [
-        "dist/appigator-core/*"
+        "library/appigator-core/*"
       ]
     }
   },
