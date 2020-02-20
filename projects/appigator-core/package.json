@@ -1,0 +1,18 @@
+{
+  "name": "@ng/appigator-core",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/animations": "~8.2.14",
+    "@angular/cdk": "~8.2.3",
+    "@angular/common": "~8.2.14",
+    "@angular/core": "~8.2.14",
+    "@angular/forms": "~8.2.14",
+    "@angular/material": "^8.2.3",
+    "@capacitor/core": "1.5.0",
+    "@ionic-native/core": "^5.0.0",
+    "@ionic-native/splash-screen": "^5.0.0",
+    "@ionic-native/status-bar": "^5.0.0",
+    "@ionic/angular": "^5.0.0",
+    "hammerjs": "^2.0.8"
+  }
+}

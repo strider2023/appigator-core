@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "appigator-base",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

@@ -1,0 +1,16 @@
+<ng-container *ngIf="platformType">
+  <ng-container [ngSwitch]="platformType">
+    <ng-container *ngSwitchCase="'WEB'">
+      <p>
+        Web
+      </p>
+      <lib-view-renderer-web *ngFor="let field of sectionData.fields" [viewData]="field"></lib-view-renderer-web>
+    </ng-container>
+    <ng-container *ngSwitchCase="'MOBILE'">
+      <p>
+        Mobile
+      </p>
+      <lib-view-renderer-mobile *ngFor="let field of sectionData.fields" [viewData]="field"></lib-view-renderer-mobile>
+    </ng-container>
+  </ng-container>
+</ng-container>
