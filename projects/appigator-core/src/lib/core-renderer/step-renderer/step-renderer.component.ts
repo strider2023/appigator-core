@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { PageLoaderService } from '../../core-services/page-loader.service';
 
 @Component({
   selector: 'lib-step-renderer',
@@ -7,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StepRendererComponent implements OnInit {
 
-  constructor() { }
+  @Input() pageId: string;
 
-  ngOnInit() {}
+  constructor(private pageLoaderService: PageLoaderService) { }
+
+  ngOnInit() {
+    this.pageLoaderService.init();
+  }
 
 }

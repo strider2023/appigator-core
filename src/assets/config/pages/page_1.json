@@ -1,0 +1,54 @@
+{
+  "pageId": "page_1",
+  "style": {
+    
+  },
+  "sections": [
+    {
+      "sectionId": "1",
+      "style": {
+        
+      },
+      "fields": [
+        {
+          "fieldId": "1",
+          "type": "Button",
+          "variant": "Default",
+          "style": {
+            
+          },
+          "config": {
+            "label": "Hello World!"
+          },
+          "conditions": [
+            {
+              "visibility": [
+                
+              ],
+              "editable": [
+                
+              ],
+              "mandatory": [
+                
+              ],
+              "value": [
+                
+              ]
+            }
+          ],
+          "events": [
+            {
+              "event_id": "1233",
+              "default": true,
+              "type": "API_CALL",
+              "invoker": "OnClick",
+              "config": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
