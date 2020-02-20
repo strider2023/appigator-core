@@ -10,10 +10,15 @@ export class StepRendererComponent implements OnInit {
 
   @Input() pageId: string;
 
+  pageData: any;
+
   constructor(private pageLoaderService: PageLoaderService) { }
 
   ngOnInit() {
-    this.pageLoaderService.init();
+    this.pageLoaderService.loadPage(this.pageId, (data: any) => {
+      console.log(data);
+      this.pageData = data;
+    });
   }
 
 }

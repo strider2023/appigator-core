@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'lib-view-renderer-web',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./view-renderer-web.component.scss'],
 })
 export class ViewRendererWebComponent implements OnInit {
+
+  @Input() viewData: any;
 
   constructor() { }
 

@@ -1,3 +1,8 @@
-<p>
-  step-renderer works!
-</p>
+<ng-container *ngIf="pageData">
+  <ion-content [fullscreen]="true">
+    <p>
+      step-renderer works!
+    </p>
+    <lib-section-renderer *ngFor="let section of pageData.sections" [sectionData]="section"></lib-section-renderer>
+  </ion-content>
+</ng-container>

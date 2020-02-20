@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'lib-section-renderer',
@@ -7,8 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectionRendererComponent implements OnInit {
 
+  @Input() sectionData: any;
+  platformType: string;
+
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.platformType = window.localStorage.getItem('platform');
+  }
 
 }

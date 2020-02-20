@@ -1,3 +1,23 @@
-<p>
-  view-renderer-web works!
-</p>
+<ng-container [ngSwitch]="viewData.type">
+  <ng-container *ngSwitchCase="'button'">
+    <lib-button></lib-button>
+  </ng-container>
+  <ng-container *ngSwitchCase="'checkbox'">
+    <lib-checkbox></lib-checkbox>
+  </ng-container>
+  <ng-container *ngSwitchCase="'image'">
+    <lib-image></lib-image>
+  </ng-container>
+  <ng-container *ngSwitchCase="'label'">
+    <lib-label></lib-label>
+  </ng-container>
+  <ng-container *ngSwitchCase="'picker'">
+    <lib-picker></lib-picker>
+  </ng-container>
+  <ng-container *ngSwitchCase="'radio'">
+    <lib-radio></lib-radio>
+  </ng-container>
+  <ng-container *ngSwitchCase="'textfield'">
+    <lib-textfield></lib-textfield>
+  </ng-container>
+</ng-container>

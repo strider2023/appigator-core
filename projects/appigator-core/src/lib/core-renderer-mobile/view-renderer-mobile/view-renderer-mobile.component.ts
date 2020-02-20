@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'lib-view-renderer-mobile',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./view-renderer-mobile.component.scss'],
 })
 export class ViewRendererMobileComponent implements OnInit {
+
+  @Input() viewData: any;
 
   constructor() { }
 

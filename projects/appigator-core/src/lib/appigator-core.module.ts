@@ -7,6 +7,9 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
   imports: [
     CommonModule,
     HttpClientModule
+  ],
+  exports: [
+
   ]
 })
 export class AppigatorCoreModule { }

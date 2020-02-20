@@ -12,8 +12,236 @@
       "fields": [
         {
           "fieldId": "1",
-          "type": "Button",
-          "variant": "Default",
+          "type": "button",
+          "variant": "default",
+          "style": {
+            
+          },
+          "config": {
+            "label": "Hello World!"
+          },
+          "conditions": [
+            {
+              "visibility": [
+                
+              ],
+              "editable": [
+                
+              ],
+              "mandatory": [
+                
+              ],
+              "value": [
+                
+              ]
+            }
+          ],
+          "events": [
+            {
+              "event_id": "1233",
+              "default": true,
+              "type": "API_CALL",
+              "invoker": "OnClick",
+              "config": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "fieldId": "1",
+          "type": "checkbox",
+          "variant": "default",
+          "style": {
+            
+          },
+          "config": {
+            "label": "Hello World!"
+          },
+          "conditions": [
+            {
+              "visibility": [
+                
+              ],
+              "editable": [
+                
+              ],
+              "mandatory": [
+                
+              ],
+              "value": [
+                
+              ]
+            }
+          ],
+          "events": [
+            {
+              "event_id": "1233",
+              "default": true,
+              "type": "API_CALL",
+              "invoker": "OnClick",
+              "config": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "fieldId": "1",
+          "type": "image",
+          "variant": "default",
+          "style": {
+            
+          },
+          "config": {
+            "label": "Hello World!"
+          },
+          "conditions": [
+            {
+              "visibility": [
+                
+              ],
+              "editable": [
+                
+              ],
+              "mandatory": [
+                
+              ],
+              "value": [
+                
+              ]
+            }
+          ],
+          "events": [
+            {
+              "event_id": "1233",
+              "default": true,
+              "type": "API_CALL",
+              "invoker": "OnClick",
+              "config": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "fieldId": "1",
+          "type": "label",
+          "variant": "default",
+          "style": {
+            
+          },
+          "config": {
+            "label": "Hello World!"
+          },
+          "conditions": [
+            {
+              "visibility": [
+                
+              ],
+              "editable": [
+                
+              ],
+              "mandatory": [
+                
+              ],
+              "value": [
+                
+              ]
+            }
+          ],
+          "events": [
+            {
+              "event_id": "1233",
+              "default": true,
+              "type": "API_CALL",
+              "invoker": "OnClick",
+              "config": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "fieldId": "1",
+          "type": "picker",
+          "variant": "default",
+          "style": {
+            
+          },
+          "config": {
+            "label": "Hello World!"
+          },
+          "conditions": [
+            {
+              "visibility": [
+                
+              ],
+              "editable": [
+                
+              ],
+              "mandatory": [
+                
+              ],
+              "value": [
+                
+              ]
+            }
+          ],
+          "events": [
+            {
+              "event_id": "1233",
+              "default": true,
+              "type": "API_CALL",
+              "invoker": "OnClick",
+              "config": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "fieldId": "1",
+          "type": "radio",
+          "variant": "default",
+          "style": {
+            
+          },
+          "config": {
+            "label": "Hello World!"
+          },
+          "conditions": [
+            {
+              "visibility": [
+                
+              ],
+              "editable": [
+                
+              ],
+              "mandatory": [
+                
+              ],
+              "value": [
+                
+              ]
+            }
+          ],
+          "events": [
+            {
+              "event_id": "1233",
+              "default": true,
+              "type": "API_CALL",
+              "invoker": "OnClick",
+              "config": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "fieldId": "1",
+          "type": "textfield",
+          "variant": "default",
           "style": {
             
           },
