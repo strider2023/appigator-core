@@ -9,6 +9,9 @@ import { StepRendererComponent } from './step-renderer/step-renderer.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    StepRendererComponent
   ]
 })
-export class RendererComponentsModule { }
+export class CoreRendererModule { }

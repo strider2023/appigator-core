@@ -1,0 +1,63 @@
+{
+  "stepId": "",
+  "row": 3,
+  "column": 10,
+  "style": {
+    
+  },
+  "sections": [
+    {
+      "sectionId": "",
+      "row_start": 3,
+      "column_start": 10,
+      "row_size": 3,
+      "column_size": 10,
+      "style": {
+        
+      },
+      "fields": [
+        {
+          "fieldId": "",
+          "type": "",
+          "row_start": 3,
+          "column_start": 10,
+          "row_size": 3,
+          "column_size": 10,
+          "style": {
+            
+          },
+          "config": {
+            
+          },
+          "conditions": [
+            {
+              "visibility": [
+                
+              ],
+              "editable": [
+                
+              ],
+              "mandatory": [
+                
+              ],
+              "value": [
+                
+              ]
+            }
+          ],
+          "events": [
+            {
+              "event_id": "1233",
+              "default": true,
+              "type": "",
+              "invoker": "",
+              "config": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
