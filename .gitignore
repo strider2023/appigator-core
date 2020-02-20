@@ -30,4 +30,6 @@ npm-debug.log*
 /plugins
 /www
 /library
+/android
+/.gradle
 package-lock.json
